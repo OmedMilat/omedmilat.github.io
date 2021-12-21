@@ -1,9 +1,26 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "be.roularta.roulartaApp",
-    "sha256_cert_fingerprints":
-    ["7B:EC:D9:F7:5D:A5:1B:79:8E:70:F2:B7:D9:28:1C:F3:12:FA:0F:8C:6A:AF:AD:54:8D:9C:CB:49:0A:16:93:FB"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "be.roularta.mijnmagazinesstaging",
+      "sha256_cert_fingerprints": [
+        "0B:2E:1B:A1:BD:E7:27:3E:2F:C7:14:1D:59:8E:16:B2:82:CF:DF:E2:B7:6E:7C:AB:65:0B:29:4B:11:90:45:C4"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "be.roularta.roulartaApp",
+      "sha256_cert_fingerprints": [
+        "60:E4:FA:F2:16:96:33:23:1A:09:83:65:21:FF:54:25:2D:4D:87:AC:C6:F7:71:DC:76:E3:CE:9B:3B:45:60:D4"
+      ]
+    }
   }
-}]
+]

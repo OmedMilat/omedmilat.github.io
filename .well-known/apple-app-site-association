@@ -1,11 +1,21 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "ARV4FB8X77.be.roularta.roulartaApp",
-                "paths": [ "*" ]
-            }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "2U3EV9WZCK.be.roularta.mijnmagazinesstaging",
+        "paths": [
+          "NOT /_/*",
+          "/*"
         ]
-    }
+      },
+      {
+        "appID": "ARV4FB8X77.be.roularta.roulartaApp",
+        "paths": [
+          "NOT /_/*",
+          "/*"
+        ]
+      }
+    ]
+  }
 }
